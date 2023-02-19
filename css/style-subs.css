@@ -1,0 +1,107 @@
+:root{
+    --primaryColor: #9c8eb4;
+    --secondaryColor: #65469c;
+    --lightColor: #fff;
+    --bgColor-1: #171a1c;
+    --bgColor-2: #22282a;
+    --padding: 8%;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        color: var(--lightColor);
+    }
+    
+    .home{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--bgColor-1);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    span{
+        color: var(--secondaryColor);
+    }
+
+    h1{
+        font-size: 3.65rem;
+        margin: 1.7rem 0;
+    }
+
+    nav{
+        padding-top: 2.8rem;
+        padding-left: var(--padding);
+        padding-right: var(--padding);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav ul li{
+        list-style-type: nones;
+        display: inline-block;
+        margin: 0.8rem 1.5rem;
+    }
+     
+    nav ul li a{
+        color: var(--lightColor);
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: 0.4s;
+    }
+    nav ul li a:hover{
+        color: var(--secondaryColor);
+    }
+
+    .btn{
+    background-color: var(--secondaryColor);
+    color: var(--lightColor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    }
+    .btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--secondaryColor);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
